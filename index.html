@@ -5,20 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<style>
+.col-container {
+  display: table; /* Make the container element behave like a table */
+  width: 100%; /* Set full-width to expand the whole page */
+}
+
+.col {
+  display: table-cell; /* Make elements inside the container behave like table cells */
+}
+</style>
 </head>
+
 <body>
-    <div class="grid-container">
-        <div class="grid-item">1</div>
-            <p>OK</p>
-        <div class="grid-item">2</div>
-            <p>OK</p>
-        <div class="grid-item">3</div>
-        <div class="grid-item">4</div>
-        <div class="grid-item">5</div>
-        <div class="grid-item">6</div>
-        <div class="grid-item">7</div>
-        <div class="grid-item">8</div>
-        <div class="grid-item">9</div>
+    <div class="col-container">
+        <div class="col">
+          <h2>Column 1</h2>
+          <p>Hello World</p>
+        </div>
+      
+        <div class="col">
+          <h2>Column 2</h2>
+          <p>Hello World!</p>
+          <p>Hello World!</p>
+          <p>Hello World!</p>
+          <p>Hello World!</p>
+        </div>
+      
+        <div class="col">
+          <h2>Column 3</h2>
+          <p>Some other text..</p>
+          <p>Some other text..</p>
+        </div>
       </div>
 </body>
 </html>
