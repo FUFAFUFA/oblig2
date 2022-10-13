@@ -4,51 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>nettside</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  <div class ="hovedboks"> 
     <h3>ANNONSØRINNHOLD</h3>
-    <div class="hovedbilde">
-        <img src="bilder/hovedbilde.png" alt="hovedbilde" width="800" height="600"> <!-- CSS: center bilde :) -->
-    </div>
-
+    <img alt="logo" src="bilder/logo.png" class="logo">
+        <img src="bilder/hovedbilde.png" class="bilde" alt="hovedbilde"> <!-- CSS: center bilde :) -->
+    
     <div class="annonsetekst">
         <h1>Urolige tider?</h1>
-        <h1>Tre tips til hvordan du bevarer verdiene</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu.</p>
+        <h1>Tre tips til hvordan du</h1> 
+          <h1>bevarer verdiene</h1>
+        <p class="underoverskirft">Lorem ipsum dolor sit amet Nulla sem urna, pharetra ut<br> consectetur adipiscing elit. Aenean eu.</p>
+        <p class="annonseinnhold"><b>Annonsørinnhold: </b> Schibstedt partnerstudioet.</p>
     </div>
+
 
     <div class="col-container"> <!--Prøv å få bilder og tekst i CSS dere lager like brede (portrettbilde feks som utgangspunkt)-->
         <div class="col">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sem urna, pharetra ut pellentesque sit amet, condimentum lobortis sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec felis felis, maximus sed purus non, dapibus interdum nulla. Donec velit lorem, porttitor nec scelerisque ac, condimentum non arcu. Donec feugiat, est vel ornare pharetra, nisi magna fermentum risus, a laoreet leo mauris id augue. Ut eleifend, eros vitae tempor dapibus, enim lorem congue sapien, venenatis volutpat orci erat sed ligula. Fusce porta erat ac velit gravida mollis. Cras vel metus non enim feugiat pellentesque vel a est. Quisque quis ornare elit. Nam sagittis euismod venenatis. Duis ante augue, vestibulum nec massa id, commodo gravida urna.</p>
-          <p>Integer placerat sagittis magna eu sagittis. Sed tincidunt consectetur ante, nec congue enim vestibulum et. Aliquam ornare neque nec feugiat luctus. Phasellus pulvinar mi ac scelerisque ornare. Vivamus in lacus ante. Proin gravida malesuada convallis. Nullam dictum lobortis viverra. Nam nisl libero, molestie nec tincidunt vitae, iaculis vitae mauris. Sed blandit congue metus. Nullam commodo viverra nisi auctor sagittis. Suspendisse a erat quis magna venenatis aliquam. Nunc in lectus bibendum, tristique purus id, varius dui. Etiam lectus lacus, feugiat quis lacinia eget, venenatis eget lorem. Curabitur viverra elit eu tellus vehicula porta.</p>
-          <img src="bilder/portrett.png" alt="portrett" width="220" height="300">
-          <p>Ut iaculis risus eu nisi vehicula, vel suscipit erat efficitur. Donec egestas felis lacus, vel laoreet turpis tincidunt id. Etiam vitae risus eget sem ultricies rutrum. Donec sed ornare enim, ut mollis nibh. Aliquam lacinia laoreet felis ut sollicitudin. Aliquam erat volutpat. Sed in augue nec tellus mollis finibus quis vitae lacus. Fusce lacus nibh, pulvinar id neque ac, facilisis interdum magna. Vivamus vehicula risus quis laoreet ultrices. Suspendisse molestie interdum neque vitae pretium. Cras orci mauris, consequat euismod porttitor et, hendrerit id lorem. Aenean suscipit semper sapien in bibendum. Morbi porttitor tellus in magna mollis, nec lobortis nibh vulputate. Suspendisse potenti.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur.</p> <!--CSS: plassering av denne er ulik de andre tekstbolkene-->
+          
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sem urna, pharetra ut pellentesque sit amet, 
+          condimentum lobortis sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+           posuere cubilia curae; Donec felis felis, maximus sed purus non, dapibus interdum nulla. </p>
+             <h4>SKAPER RESULTATER UTOVER AVKASTNING</h4>
+         <p class="h4paragraf">placerat sagittis magna eu sagittis. Sed tincidunt consectetur ante, nec congue enim vestibulum et. Aliquam ornare neque nec feugiat luctus. Phasellus pulvinar mi ac scelerisque ornare. Vivamus in lacus ante.      Proin gravida malesuada convallis. Nullam dictum lobortis viverra. Nam nisl libero, molestie nec tincidunt vitae, iaculis vitae mauris. Sed blandit congue metus. Nullam commodo viverra nisi auctor sagittis. Suspendisse a erat quis magna venenatis aliquam. Nunc in lectus bibendum, tristique purus id, varius dui. Etiam lectus lacus, feugiat quis lacinia eget, venenatis eget lorem. Curabitur viverra elit eu tellus vehicula porta.</p>
+          <img src="bilder/portrett.png" class="Monica" alt="portrett">
+          <blockquote>  - Ut iaculis risus eu nisi vehicula, vel suscipit erat efficitur. Donec egestas felis lacus, vel laoreet turpis tincidunt id. Phasellus pulvinar mi ac scelerisque ornare. Vivamus in lacus ante.      Proin gravida malesuada convallis. Nullam dictum lobortis viverra. Nam nisl libero,
+             molestie nec tincidunt vitae, iaculis vitae mauris. Sed blandit congue metus. 
+           </blockquote>
+          <figcaption>Monica Saltheia, leder i Formues <br> kontor i Bergen</figcaption>
+        
         </div>
       
         <div class="col">
           <h2>TRE GODE TIPS</h2>
-          <!--Tallene skal forstørres-->
-          <p>Pellentesque vehicula orci at tellus iaculis, eget eleifend risus egestas. Sed non posuere lacus. Suspendisse consequat nec neque id imperdiet. Curabitur facilisis erat ut metus semper ultrices. Sed vel hendrerit dolor, et suscipit tellus. Aenean cursus velit in metus malesuada aliquet. Suspendisse varius gravida arcu non dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus feugiat quam, sed ullamcorper ex venenatis sit amet. Nunc finibus lorem sit amet pulvinar posuere. Sed cursus, urna vel imperdiet tempor, massa diam vulputate felis, a vehicula metus ex non velit. Donec et purus consequat, porta nulla vel, vehicula ipsum. Cras tristique porttitor nulla a varius. Suspendisse lobortis tortor eget dui molestie finibus. Phasellus leo tellus, auctor nec maximus a, bibendum quis nunc.</p>
-          <h4>1. LEGG EN LANGSIKTIG PLAN </h4>
-          <p>Quisque quis congue lacus, ac lacinia urna. Donec non ultricies augue. Donec quis nibh vitae dui viverra lacinia vitae eget ipsum. Morbi iaculis tortor ut imperdiet euismod. Pellentesque dictum felis vehicula, tempus massa id, laoreet mauris. Morbi diam augue, pretium quis pharetra vitae, pellentesque ut quam. Nulla id magna sed purus pellentesque suscipit.</p>
-          <h4>2. BYGG EN SOLID PORTEFØLJE MED MANGE ULIKE INVESTERINGER</h4>
-          <p>Cras commodo consequat sapien ac eleifend. Curabitur tincidunt diam diam, at aliquet lectus aliquam at. Proin ex quam, rutrum quis viverra non, blandit ut ligula. Donec elementum id turpis ut maximus. Proin tristique velit in erat vulputate pretium. Aliquam vitae lacus nunc. Aenean sed vehicula metus. Donec finibus vehicula ultricies. Ut ullamcorper turpis felis, id interdum eros pellentesque et. Nunc molestie gravida porttitor. Aenean bibendum pretium nibh, non facilisis tellus tristique nec. Sed tristique, risus vel convallis semper, arcu ligula mollis ante, non varius nunc mi sit amet arcu. Fusce cursus, lectus at maximus ornare, lectus nisl consequat enim, at mattis dui mi sed massa.</p>
-          <h4>3. HOLD DEG TIL PLANEN SOM ER LAGT</h4>
-          <p>Donec dignissim pretium laoreet. Vestibulum tempor, lacus id luctus laoreet, felis nulla dignissim magna, sit amet sollicitudin magna urna in sapien. Maecenas aliquet mattis sem, eget bibendum odio mattis a. Pellentesque porttitor risus non feugiat aliquet. Curabitur auctor massa dui, vel gravida sem ultrices aliquet. In vel porttitor lacus. Donec tincidunt aliquet ex et gravida. Aliquam eget justo a elit vehicula malesuada. Curabitur varius vel neque vel aliquet.</p>
+          <p class="h2paragraf">Pellentesque vehicula orci at tellus iaculis, eget eleifend risus egestas. Sed non posuere lacus. Suspendisse consequat nec neque id imperdiet. Curabitur facilisis erat ut metus semper ultrices. Sed vel hendrerit dolor, et suscipit tellus. </p>
+          <p class="tall1">1</p> <p class="underoverskrift1"> <span style="color: rgb(16, 16, 97);"><b>LANGSIKTIG PLAN</b></span>  
+          quis congue lacus, ac lacinia urna. Donec non ultricies augue. Donec quis nibh vitae dui viverra lacinia vitae eget ipsum. Morbi iaculis tortor ut imperdiet euismod. Pellentesque dictum felis vehicula, tempus massa id, laoreet mauris. Morbi diam augue, pretium quis pharetra vitae, pellentesque ut quam. Nulla id magna sed purus pellentesque suscipit.</p>
+          <p class="tall1">2 <span style="color: rgb(16, 16, 97);"><b>BYGG EN SOLID PORTEFØLJE</b></span> 
+           Cras commodo consequat sapien ac eleifend. Curabitur tincidunt diam diam, at aliquet lectus aliquam at. Proin ex quam, rutrum quis viverra non, blandit ut ligula. Donec elementum id turpis ut maximus. Proin tristique velit in erat vulputate pretium. Aliquam vitae lacus nunc. Aenean sed vehicula metus. Donec finibus vehicula ultricies. Ut ullamcorper turpis felis, id interdum eros pellentesque et. Nunc molestie gravida porttitor. Aenean bibendum pretium nibh, non facilisis tellus tristique nec. Sed tristique, risus vel convallis semper, arcu ligula mollis ante, non varius nunc mi sit amet arcu. Fusce cursus, lectus at maximus ornare, lectus nisl consequat enim, at mattis dui mi sed massa.</p>
+           <p class="tall1"> 3 <span style="color: rgb(16, 16, 97);"><b>HOLD DEG TIL PLANEN SOM ER LAGT</b></span> 
+          Donec dignissim pretium laoreet. Vestibulum tempor, lacus id luctus laoreet, felis nulla dignissim magna, sit amet sollicitudin magna urna in sapien. Maecenas aliquet mattis sem, eget bibendum odio mattis a. Pellentesque porttitor risus non feugiat aliquet. Curabitur auctor massa dui, vel gravida sem ultrices aliquet. In vel porttitor lacus. Donec tincidunt aliquet ex et gravida. Aliquam eget justo a elit vehicula malesuada. Curabitur varius vel neque vel aliquet.</p>
+          <p class="kbrødtekst">Aenean cursus velit in metus malesuada aliquet. Suspendisse varius gravida arcu non dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tempus feugiat quam, sed ullamcorper ex venenatis sit amet. Nunc finibus lorem sit amet pulvinar posuere. Sed cursus, urna vel imperdiet tempor, massa diam vulputate felis, a vehicula metus ex non velit. Donec et purus consequat, porta nulla vel, vehicula ipsum. Cras tristique porttitor nulla a varius. Suspendisse lobortis tortor eget dui molestie finibus. Phasellus leo tellus, auctor nec maximus a, bibendum quis nunc.</p>
         </div>
       
         <div class="col">
           <img src="bilder/brosjyre.png" alt="brosjyre" width="220" height="300">
           <br>
+          
           <img src="bilder/qr.png" alt="qr-kode" width="50" height="50">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat sapien eget diam ultrices ornare.</p> <!--CSS: denne skal ved siden av QR-kode bildet :)-->
-          <p>Nulla non malesuada nulla. Sed consectetur urna in tortor eleifend, in dictum ex accumsan. Nunc dignissim porttitor urna. Praesent posuere turpis non orci pretium faucibus. Vivamus pellentesque ac sapien sollicitudin dignissim. Donec consequat eget neque a rhoncus. Aliquam tincidunt metus urna, et sodales lacus placerat egestas. Suspendisse potenti. Nam elementum ultricies convallis. Sed tempor suscipit scelerisque. Quisque euismod neque quis purus faucibus ornare. Ut gravida tristique sodales. Integer malesuada ligula ac vehicula volutpat. Praesent accumsan purus id viverra molestie.</p>
-          <p>Duis sagittis metus sed justo ultricies, ac sodales arcu mattis. Aliquam euismod vel dui vitae viverra. Aliquam in leo purus. Donec sed sapien in ligula ultrices cursus. Ut nec odio ac odio tempor feugiat. Mauris dignissim ultrices enim eget commodo. Quisque interdum ornare tellus hendrerit sodales. Sed viverra id lectus sit amet ullamcorper.</p>
+          <p class="qr"><b>Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit.<br> Donec placerat sapien eget <br>diam ultrices ornare.</b></p> 
+       
+        <div class="boks1">
+          <p class="p1" >Nulla non malesuada nulla. Sed consectetur urna in tortor eleifend, in dictum ex accumsan. Nunc dignissim porttitor urna. Praesent posuere turpis non orci pretium faucibus. Vivamus pellentesque ac sapien sollicitudin dignissim. Donec consequat eget neque a rhoncus. Aliquam tincidunt metus urna, et sodales lacus placerat egestas. Suspendisse potenti.</p>
+          <p class="p2">Duis sagittis metus sed justo ultricies, ac sodales arcu mattis. Aliquam euismod vel dui vitae viverra. Aliquam in leo purus. Donec sed sapien in ligula ultrices cursus. Ut nec odio ac odio tempor feugiat. Mauris dignissim ultrices enim eget commodo. Quisque interdum ornare tellus hendrerit sodales. Sed viverra id lectus sit amet ullamcorper.</p>
+        </div>
         </div>
       </div>
+    </div>
 </body>
 </html>
